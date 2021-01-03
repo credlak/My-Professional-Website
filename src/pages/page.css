@@ -1,0 +1,37 @@
+div {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+div:nth-child(2) {
+  height: 78vh;
+}
+
+nav {
+    background-color: antiquewhite;
+    margin: 15px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: darkslateblue;
+}
+
+a:hover {
+    color: darkslategray;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    width: 70%;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
